@@ -7,7 +7,7 @@ import Hobbies from './components/Hobbies.js';
 import PageHeader from './components/PageHeader.js'
 import PageFooter from './components/PageFooter.js'
 import NotFound from './components/NotFound.js';
-import { BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
 
 function App() {
@@ -15,9 +15,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <PageHeader/>
-      <Home/>
-        <Routes>  
-          <Route exact path='/' element={<Navigate replace to='/home' />} />
+        <Routes>
           <Route exact path='/home' element={<Home />} />
           <Route exact path='/about' element={<About />} />
           <Route exact path='/experience' element={<Experience />} />
