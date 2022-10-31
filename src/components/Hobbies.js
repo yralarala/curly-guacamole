@@ -10,8 +10,7 @@ function Hobbies(){
         <>
         <StandardLayout
         title = "Hobbies"
-        body = 
-        "When I am not sitting in from of my laptop, I love being in nature. 
+        body ="When I am not sitting in from of my laptop, I love being in nature. 
         I enjoy listening to music, the Genre is all dependant on how I feel 
         at the time. I have a Doggo named Izuzu and oooh boy does he keep 
         everyone around the house busy as he loves his walks. A good, 
