@@ -1,11 +1,8 @@
 import React from 'react';
-import linkedIn from '../resources/linkedIn.png';
-import yeyethu from '../resources/yeyethu.pdf';
 import '../css/StylingHeader.css';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import '../css/StylingFooter.css';
-import {Link} from 'react-router-dom'
 
 function PageFooter(){
     return(

@@ -5,18 +5,18 @@ import {NavLink} from 'react-router-dom';
 import StandardLayout from './StandardLayout.js';
 
 
-function About(){
+function Hobbies(){
     return(
         <>
         <StandardLayout
-        title = "About"
-        body = "Born and Bred in a small town called Aliwal North which is on the boarders of the Eastern Cape and Free State "
+        title = "Hobbies"
+        body = ""
         img = {myPic}
-        path = '/experience'
-        readMore = "Read more"
+        path = '/home'
+        readMore = "Return Home"
         />
-        </>  
+        </>   
     );    
 }
 
-export default About;
+export default Hobbies;
