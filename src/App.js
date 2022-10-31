@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import './App.css';
 import Home from './components/Home.js';
 import About from './components/About.js';
+import Experience from './components/Experience.js';
+import CareerExpectation from './components/CareerExpectation.js';
+import Hobbies from './components/Hobbies.js';
 import PageHeader from './components/PageHeader.js'
 import PageFooter from './components/PageFooter.js'
 import NotFound from './components/NotFound.js';
@@ -16,6 +19,9 @@ function App() {
         <Routes>
           <Route path='/home' element={<Home />} />
           <Route path='/about' element={<About />} />
+          <Route path='/Experience' element={<Experience />} />
+          <Route path='/about' element={<CareerExpectation />} />
+          <Route path='/about' element={<Hobbies />} />
           <Route element={<NotFound />} />
         </Routes>
       <PageFooter/>
