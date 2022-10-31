@@ -1,7 +1,11 @@
-# Project Name 
-Project description
+# A Portfolio about Yeyethu Ralarala
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About This Project
+
+This project is a single page application built using the React Framework, Html, CSS and JavaScript. The application gives an overview of who Yeyethu Ralarala is.
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and can be found on [My GitHub Repository](https://github.com/yralarala/curly-guacamole), or alternatively viewed on a [website](https://master.dro90zr9rg54m.amplifyapp.com ).
+
 
 ## Available Scripts
 
@@ -10,15 +14,13 @@ In the project directory, you can run below command on your Terminal:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000/home](http://localhost:3000/home) to view it in your browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode.
 
 ### `npm run build`
 
@@ -30,62 +32,38 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Things I enjoyed about the Project
-paragraphs
+This project gets deployed using Amazon S3. Each time a commit is pushed to GitHub, its get picked
+up by Amazon S3. The project gets compile, deployed and hosted on a domain: [domain for viewing the application](https://master.dro90zr9rg54m.amplifyapp.com ).
 
 
-# Challenges
-paragraphs
+## Things I enjoyed about the Project
+
+Working on a new Framework was enjoyable and challenging to some extent. React is an easy Framework to work with
+Being able to reuse components and JSX saves time in coding. 
+React is not a
 
 
-# Other features I would have loved to add to the Projet
-1. Items in Navigation bar
-2. fits all platforms
+## Shortcomings
+
+Having to juggle school work and completing the project - need to plan better around that in future
+
+
+## Other features I would have loved to add to the Projet
+
+I am happy with the project, however, there is alway room for improvement. Some I have noted below:
+1. For the Navigation bar to change background on an active link 
+2. For the Application to be a Cross-platform application
+3. Applying the Test Driven Development Cycle on the application
 1. Using Switch componet to route to another Component instead of Routes component
-    1. 
-        1. Code snippet is retrived from ./src/App.js 
+    1. For the Application to redirecte user to the NotFound component when invalid path is entered
+        1. Code snippet is retrived from ./src/App.js . regardless of installations made, Switch and Redirect components were not recognised
 
 ```javascript
 <Routes>
+          <Route exact path='/' element={<Home />} />
           <Route path='/home' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/experience' element={<Experience />} />
