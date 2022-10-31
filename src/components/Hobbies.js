@@ -12,6 +12,7 @@ function Hobbies(){
         title = "Hobbies"
         body = ""
         img = {myPic}
+        path = '/home'
         readMore = "Return Home"
         />
         </>   

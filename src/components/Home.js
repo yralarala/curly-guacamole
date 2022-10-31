@@ -11,10 +11,8 @@ function Home(){
 
             <div className="introBox">
                 <h1>Yeyethu Ralarala</h1>
-                <p> This is the HOME pageLorem ipsum dolor sit amet, consectetur jjfjfjajlalalallaadip kdkjhdh
-                    jsjhghala jfjjjfjjaj kkfjajajja kkaklrefeajroieij testing lkksjdjdjdjd 
-                    jdjdjjdjdjdjdjd kjdjjdjdjdj oiehhsjahah akjjdjjsdjdsjsj.
-
+                <p> A 2nd year [final year] at WeThinkCode_ pursuing a higher certificate, 
+                    NQF level 5 in Information Technology, Systems Development.
                 </p>
                 <div className="readMoreBox">
                     <div className="read">

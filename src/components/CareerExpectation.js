@@ -12,6 +12,7 @@ function CareerExpectation(){
         title = "Career Expectation"
         body = ""
         img = {myPic}
+        path = '/hobbies'
         readMore = "Read more"
         />
         </>   

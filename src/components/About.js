@@ -10,11 +10,12 @@ function About(){
         <>
         <StandardLayout
         title = "About"
-        body = ""
+        body = "Born and Bred in a small town called Aliwal North which is on the boarders of the Eastern Cape and Free State "
         img = {myPic}
+        path = '/experience'
         readMore = "Read more"
         />
-        </>   
+        </>  
     );    
 }
 

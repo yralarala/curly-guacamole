@@ -14,7 +14,7 @@ function StandardLayout(props){
                 <p>{props.body}</p>
                 <div className="readMoreBox">
                     <div className="read">
-                        <NavLink exact to='/experience' className="readMore">{props.readMore}</NavLink>
+                        <NavLink exact to={props.path} className="readMore">{props.readMore}</NavLink>
                     </div>                    
                 </div>
             </div> 
