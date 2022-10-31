@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import './App.css';
 import Home from './components/Home.js';
 import About from './components/About.js';
 import Experience from './components/Experience.js';
@@ -19,9 +18,9 @@ function App() {
         <Routes>
           <Route path='/home' element={<Home />} />
           <Route path='/about' element={<About />} />
-          <Route path='/Experience' element={<Experience />} />
-          <Route path='/about' element={<CareerExpectation />} />
-          <Route path='/about' element={<Hobbies />} />
+          <Route path='/experience' element={<Experience />} />
+          <Route path='/careerexpectation' element={<CareerExpectation />} />
+          <Route path='/hobbies' element={<Hobbies />} />
           <Route element={<NotFound />} />
         </Routes>
       <PageFooter/>
@@ -32,32 +31,4 @@ function App() {
 
 export default App;
 
-
-
-
-
-
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         {/* <img src={logo} className="App-logo" alt="logo" /> */}
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
+    

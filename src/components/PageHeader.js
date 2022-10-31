@@ -10,10 +10,20 @@ function PageHeader(){
         <div className="pageHeader page-header">
             
                 <div className="homeAboutContainer">
-                    <p><NavLink exact to='/home' className="container" 
-                    activeClassName="activeContainer">Home</NavLink></p> 
-                    <p> <NavLink exact to='/about' className="container" 
-                    activeClassName="activeContainer">About</NavLink></p>
+                    <NavLink exact to='/home' className="container" 
+                    activeClassName="activeContainer">Home</NavLink>
+
+                    <NavLink exact to='/about' className="container" 
+                    activeClassName="activeContainer">About</NavLink>
+
+                    <NavLink exact to='/experience' className="container" 
+                    activeClassName="activeContainer">Experience</NavLink>
+
+                    <NavLink exact to='/careerexpectation' className="container" 
+                    activeClassName="activeContainer">Career Expectation</NavLink>
+                    
+                    <NavLink exact to='/hobbies' className="container" 
+                    activeClassName="activeContainer">Hobbies</NavLink>
                 </div>                   
             
         </div>
