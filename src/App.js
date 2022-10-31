@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Home from './components/Home.js';
 import About from './components/About.js';
-import Experience from './components/Experience.js';
+import Achievements from './components/Achievements.js';
 import CareerExpectation from './components/CareerExpectation.js';
 import Hobbies from './components/Hobbies.js';
 import PageHeader from './components/PageHeader.js'
@@ -19,7 +19,7 @@ function App() {
           <Route exact path='/' element={<Home />} />
           <Route exact path='/home' element={<Home />} />
           <Route exact path='/about' element={<About />} />
-          <Route exact path='/experience' element={<Experience />} />
+          <Route exact path='/achievements' element={<Achievements />} />
           <Route exact path='/careerexpectation' element={<CareerExpectation />} />
           <Route exact path='/hobbies' element={<Hobbies />} />
           <Route exact element={<NotFound />} />

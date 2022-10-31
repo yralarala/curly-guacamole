@@ -11,8 +11,8 @@ function Home(){
 
             <div className="introBox">
                 <h1>Yeyethu Ralarala</h1>
-                <p> A 2nd year [final year] at WeThinkCode_ pursuing a higher certificate, 
-                    NQF level 5 in Information Technology, Systems Development.
+                <p> A 2nd (final) year Student at WeThinkCode_ pursuing a higher certificate, 
+                    NQF level 5 Qualification in Information Technology, Systems Development.
                 </p>
                 <div className="readMoreBox">
                     <div className="read">

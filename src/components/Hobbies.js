@@ -10,7 +10,13 @@ function Hobbies(){
         <>
         <StandardLayout
         title = "Hobbies"
-        body = ""
+        body = 
+        "When I am not sitting in from of my laptop, I love being in nature. 
+        I enjoy listening to music, the Genre is all dependant on how I feel 
+        at the time. I have a Doggo named Izuzu and oooh boy does he keep 
+        everyone around the house busy as he loves his walks. A good, 
+        relaxing day includes going to the beach (it's free after all :-)). 
+        If I am looking for a crowd and a vibe, then the Market is my go to place."
         img = {myPic}
         path = '/home'
         readMore = "Return Home"

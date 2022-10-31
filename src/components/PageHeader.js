@@ -17,8 +17,8 @@ function PageHeader(){
                     <NavLink to='/about' className={"container"} 
                     activeClassName="activeContainer">About</NavLink>
 
-                    <NavLink to='/experience' className={"container"} 
-                    activeClassName="activeContainer">Experience</NavLink>
+                    <NavLink to='/achievements' className={"container"} 
+                    activeClassName="activeContainer">Achievements</NavLink>
 
                     <NavLink to='/careerexpectation' className={"container"} 
                     activeClassName="activeContainer">Career Expectation</NavLink>
