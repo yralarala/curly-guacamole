@@ -1,20 +1,21 @@
-# Getting Started with Create React App
+# Project Name 
+Project description
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run below command on your Terminal:
 
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3000/home](http://localhost:3000/home) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+### `yarn test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
@@ -68,3 +69,30 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Things I enjoyed about the Project
+paragraphs
+
+
+# Challenges
+paragraphs
+
+
+# Other features I would have loved to add to the Projet
+1. Items in Navigation bar
+2. fits all platforms
+1. Using Switch componet to route to another Component instead of Routes component
+    1. 
+        1. Code snippet is retrived from ./src/App.js 
+
+```javascript
+<Routes>
+          <Route path='/home' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/experience' element={<Experience />} />
+          <Route path='/careerexpectation' element={<CareerExpectation />} />
+          <Route path='/hobbies' element={<Hobbies />} />
+          <Route element={<NotFound />} />
+        </Routes>
+```
+
+

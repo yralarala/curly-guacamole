@@ -16,12 +16,12 @@ function App() {
       <BrowserRouter>
       <PageHeader/>
         <Routes>
-          <Route path='/home' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/experience' element={<Experience />} />
-          <Route path='/careerexpectation' element={<CareerExpectation />} />
-          <Route path='/hobbies' element={<Hobbies />} />
-          <Route element={<NotFound />} />
+          <Route exact path='/home' element={<Home />} />
+          <Route exact path='/about' element={<About />} />
+          <Route exact path='/experience' element={<Experience />} />
+          <Route exact path='/careerexpectation' element={<CareerExpectation />} />
+          <Route exact path='/hobbies' element={<Hobbies />} />
+          <Route exact element={<NotFound />} />
         </Routes>
       <PageFooter/>
       </BrowserRouter>
