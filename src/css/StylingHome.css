@@ -4,7 +4,6 @@
 .home{
     display: flex;
     background-color: #8c8c8c;
-    /* width: auto; */
     align-items: center;
     justify-content: space-around;
 }

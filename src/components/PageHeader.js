@@ -8,23 +8,25 @@ function PageHeader(){
         <>
     <header>    
         <div className="pageHeader page-header">
-            
-                <div className="homeAboutContainer">
-                    <NavLink exact to='/home' className="container" 
-                    activeClassName="activeContainer">Home</NavLink>
 
-                    <NavLink exact to='/about' className="container" 
-                    activeClassName="activeContainer">About</NavLink>
+            <nav>
+            <div className="homeAboutContainer">
+                <NavLink exact to='/home' className="container" 
+                activeClassName="activeContainer">Home</NavLink>
 
-                    <NavLink exact to='/experience' className="container" 
-                    activeClassName="activeContainer">Experience</NavLink>
+                <NavLink to='/about' className="container" 
+                activeClassName="activeContainer">About</NavLink>
 
-                    <NavLink exact to='/careerexpectation' className="container" 
-                    activeClassName="activeContainer">Career Expectation</NavLink>
-                    
-                    <NavLink exact to='/hobbies' className="container" 
-                    activeClassName="activeContainer">Hobbies</NavLink>
-                </div>                   
+                <NavLink to='/experience' className="container" 
+                activeClassName="activeContainer">Experience</NavLink>
+
+                <NavLink to='/careerexpectation' className="container" 
+                activeClassName="activeContainer">Career Expectation</NavLink>
+
+                <NavLink to='/hobbies' className="container" 
+                activeClassName="activeContainer">Hobbies</NavLink>
+            </div> 
+            </nav>           
             
         </div>
     </header>

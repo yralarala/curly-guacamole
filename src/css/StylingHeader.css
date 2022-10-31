@@ -1,53 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-/* listItem */
-/* home and about */
-.container{
-    color: #8c8c8c; 
+header{
+    background-color: white;
+
+    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-right: 32px;
     justify-content: center;
+}
+
+.pageHeader{
+    width: 100%;
+    background-color: white;
+    margin:0 auto;
+    display: flex;
+    max-width: 1200px;
+}
+
+.page-header{    
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-right: 32px;
+}
+
+.container{
+    margin-left: 32px;
+    color: #8c8c8c; 
     text-decoration: none;
     font-size:25px;
-    font-family: 'Poppins', sans-serif;
-    max-width: 1200px;
-    
+    font-family: 'Poppins', sans-serif;    
 }
 
 .activeContainer{
-    color: #003399;
-    text-decoration: underline;
-    border-bottom: .10em double #4d4d4d;
+    color: #5377ac;
+    border-bottom: 8px double #8c8c8c;
 }
 
-/* list */
+
 .homeAboutContainer{
-    justify-content: center;
+    justify-content: center space-between;
     font-size: '20px';
-}
-
-/* header */
-header{
-    background-color: white;
-}
-
-/* footer */
-footer{
-    background-color: white;
-    justify-content: center, space-between;
-}
-
-/* container */
-.pageHeader{
-    width: 100%;
-    display: flex;
-}
-/* .container */
-/* for home and about */
-.page-header{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    
-    
 }
 
 @media screen and (min-width: 768px){

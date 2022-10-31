@@ -3,7 +3,7 @@
 
 footer{
     position: fixed;
-    padding: 50px;
+    padding: 8px;
     bottom: 0;
     background-color: white;
     width: 100%;
@@ -14,11 +14,14 @@ footer{
     margin: 0 auto;
 }
 .icon{
-    margin-left: 64px;
-    margin-right: 16px;  
+    margin-left: 84px;
+    margin-right: 0px;  
     justify-content: center;
     color: #8c8c8c;   
     font-size:50px !important;
+    width:60px;
+
+    display:center;
 
 }
 .page-footer {
@@ -26,11 +29,8 @@ footer{
 }
 .copyright p{
     color: #8c8c8c; 
-    text-align: center;
-    /* justify-content: center; */
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    margin-bottom: 24px;
-    /* margin: 0 auto; */
-    text-decoration: none;
+    text-align: center;   
+    margin-bottom: 8px;
+    margin-right: 35px;
 }
+
